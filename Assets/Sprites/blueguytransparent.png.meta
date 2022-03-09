@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ce0a7f800a91d544d815c296a909d844
+guid: 5809b3061196bc24f953d2293416f9e8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blueguy_0
+      name: blueguytransparent_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37bec15dae35aca4aa6e580b8cd3c9f3
-      internalID: -1362872481
+      spriteID: ed469cc40b790d34dbe8b6b49f857fc7
+      internalID: -1894653794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_1
+      name: blueguytransparent_1
       rect:
         serializedVersion: 2
         x: 226
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f92f4ce67766c6946a132eb0918f6e27
-      internalID: -2131801197
+      spriteID: 5127b5ff120a9ab43a80cedfada4c1fc
+      internalID: -2019043219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_2
+      name: blueguytransparent_2
       rect:
         serializedVersion: 2
         x: 452
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acce9b5cd269e314bb19ddd04cc8ddc2
-      internalID: 505735548
+      spriteID: 63552b882d271ec4ea0e299897a0761c
+      internalID: 746876115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_3
+      name: blueguytransparent_3
       rect:
         serializedVersion: 2
         x: 678
@@ -181,14 +181,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2743026177bd3d4f8df7fe292f04a91
-      internalID: -1573640883
+      spriteID: 3d355a611e1eb95489291805bf8f2beb
+      internalID: -1256902539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_4
+      name: blueguytransparent_4
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 462
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cecd22c9a71f2647906876fc3248983
+      internalID: 1996478673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguytransparent_5
       rect:
         serializedVersion: 2
         x: 0
@@ -202,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34afd0824d662bf4baecc478fb6b8691
-      internalID: -2043246285
+      spriteID: 87485fba6228a26428cd431176152914
+      internalID: -666423501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_5
+      name: blueguytransparent_6
       rect:
         serializedVersion: 2
         x: 226
@@ -223,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8179da4ef32f0f45a436256595ca40f
-      internalID: -773808826
+      spriteID: 59dd5a054711f544c89cd0e4a8ecb81e
+      internalID: 52566851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_6
+      name: blueguytransparent_7
       rect:
         serializedVersion: 2
         x: 452
@@ -244,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2738da0dc674ed4c96d7e90f74c5953
-      internalID: 1179408977
+      spriteID: 326794d711624c84e9952ee825730931
+      internalID: 49467538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_7
+      name: blueguytransparent_8
       rect:
         serializedVersion: 2
         x: 678
@@ -265,14 +286,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d5e0ed7d2b14754b8faf5afafae3213
-      internalID: -2007346339
+      spriteID: 1de81fa8d11f64e47b35eaa225f250a4
+      internalID: 2040162457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_8
+      name: blueguytransparent_9
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 308
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ea3021481de5c4db686c97faa1d00b
+      internalID: 1404320404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguytransparent_10
       rect:
         serializedVersion: 2
         x: 0
@@ -286,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c861cdd7027d714d96ed01cb122584b
-      internalID: 2110127997
+      spriteID: 24b7a228068d4b04abe1fc0b6f4db33b
+      internalID: -1634533538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_9
+      name: blueguytransparent_11
       rect:
         serializedVersion: 2
         x: 226
@@ -307,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 638bf009ac8e119428ab6a6f4329ac7f
-      internalID: -787239910
+      spriteID: 12f75d44ae88f41409ec77093c550939
+      internalID: 338120908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_10
+      name: blueguytransparent_12
       rect:
         serializedVersion: 2
         x: 452
@@ -328,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eccfeb30002f3714f89363f6e41c033a
-      internalID: -952571789
+      spriteID: 139761e26c2f5874facaf2f207a3165d
+      internalID: -2001666592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_11
+      name: blueguytransparent_13
       rect:
         serializedVersion: 2
         x: 678
@@ -349,14 +391,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 211083f8216abbc4c85c5edec7edb62a
-      internalID: -1917376392
+      spriteID: 3dbdf3790ff0efd43b39ca3457776120
+      internalID: 1232725885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_12
+      name: blueguytransparent_14
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 154
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f8b246b14c06a4ca77b8f43552e9aa
+      internalID: -1282691033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguytransparent_15
       rect:
         serializedVersion: 2
         x: 0
@@ -370,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e54180b15705c454b8ea625fc459396f
-      internalID: -2126408160
+      spriteID: 52655085e7d58004fa8f211e87e56f40
+      internalID: -91849740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_13
+      name: blueguytransparent_16
       rect:
         serializedVersion: 2
         x: 226
@@ -391,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a376b7fc0f6758b4a9ee8cd82d6ae7b8
-      internalID: -738878638
+      spriteID: 7aed9be543d314345a2d2f78fda228fe
+      internalID: 1429654449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_14
+      name: blueguytransparent_17
       rect:
         serializedVersion: 2
         x: 452
@@ -412,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5195849a85c3c44298e4b625f0f46f2
-      internalID: -714831778
+      spriteID: 3f99dc42d9c0f324f9e6ccc6b67348e8
+      internalID: -1469928878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueguy_15
+      name: blueguytransparent_18
       rect:
         serializedVersion: 2
         x: 678
@@ -433,8 +496,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a61ba5e6cf0b4fa48959ca7a1b096bb4
-      internalID: -122715977
+      spriteID: 03733295aabae03488d86117e4b9afce
+      internalID: 198132892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguytransparent_19
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 0
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64735ffe63c1a9c428c7ce32e69cd6db
+      internalID: 355470204
       vertices: []
       indices: 
       edges: []
@@ -450,22 +534,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      blueguy_11: -1917376392
-      blueguy_1: -2131801197
-      blueguy_12: -2126408160
-      blueguy_5: -773808826
-      blueguy_0: -1362872481
-      blueguy_4: -2043246285
-      blueguy_2: 505735548
-      blueguy_3: -1573640883
-      blueguy_15: -122715977
-      blueguy_13: -738878638
-      blueguy_14: -714831778
-      blueguy_7: -2007346339
-      blueguy_6: 1179408977
-      blueguy_9: -787239910
-      blueguy_10: -952571789
-      blueguy_8: 2110127997
+      blueguytransparent_4: 1996478673
+      blueguytransparent_15: -91849740
+      blueguytransparent_6: 52566851
+      blueguytransparent_14: -1282691033
+      blueguytransparent_13: 1232725885
+      blueguytransparent_8: 2040162457
+      blueguytransparent_5: -666423501
+      blueguytransparent_16: 1429654449
+      blueguytransparent_10: -1634533538
+      blueguytransparent_2: 746876115
+      blueguytransparent_0: -1894653794
+      blueguytransparent_19: 355470204
+      blueguytransparent_12: -2001666592
+      blueguytransparent_7: 49467538
+      blueguytransparent_9: 1404320404
+      blueguytransparent_1: -2019043219
+      blueguytransparent_11: 338120908
+      blueguytransparent_18: 198132892
+      blueguytransparent_3: -1256902539
+      blueguytransparent_17: -1469928878
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

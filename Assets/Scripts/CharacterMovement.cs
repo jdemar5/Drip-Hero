@@ -26,7 +26,7 @@ public class CharacterMovement : MonoBehaviour
         r5 = sprite.transform.GetChild(5).gameObject;
         r6 = sprite.transform.GetChild(6).gameObject;
         r7 = sprite.transform.GetChild(7).gameObject;
-        r1.SetActive(true);
+        r0.SetActive(true);
         lastSprite = 0;
         currentSprite = 0;
     }
