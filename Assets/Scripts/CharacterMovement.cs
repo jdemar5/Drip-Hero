@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    private const float MOVE_SPEED = 5f;
+    private const float MOVE_SPEED = 8f;
 
     private Rigidbody2D rb; 
     private Vector3 moveDir;
@@ -42,6 +42,7 @@ public class CharacterMovement : MonoBehaviour
         moveY = 0f;
 
         MovementCheck();
+
         if (movingRight)
         {
             if (!moving)
