@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
+    //This class handles all the player movement as well as the sprite changes and animations
+    
+    //initialization
     private const float MOVE_SPEED = 8f;
-
     private Rigidbody2D rb; 
     private Vector3 moveDir;
     bool movingRight, movingLeft, movingForward, movingBackward, moving;
@@ -18,15 +20,17 @@ public class CharacterMovement : MonoBehaviour
     void Start()
     {
         sprite = GameObject.Find("PlayerSprite");
-        r0 = sprite.transform.GetChild(0).gameObject;
-        r1 = sprite.transform.GetChild(1).gameObject;
-        r2 = sprite.transform.GetChild(2).gameObject;
-        r3 = sprite.transform.GetChild(3).gameObject;
-        r4 = sprite.transform.GetChild(4).gameObject;
-        r5 = sprite.transform.GetChild(5).gameObject;
-        r6 = sprite.transform.GetChild(6).gameObject;
-        r7 = sprite.transform.GetChild(7).gameObject;
-        r0.SetActive(true);
+        //order of children very important, please do not change
+        r0 = sprite.transform.GetChild(0).gameObject; //should get LeftDefault
+        r1 = sprite.transform.GetChild(1).gameObject; //should get BackDefault
+        r2 = sprite.transform.GetChild(2).gameObject; //should get FrontDefault
+        r3 = sprite.transform.GetChild(3).gameObject; //should get RightDefault
+        r4 = sprite.transform.GetChild(4).gameObject; //should get LeftWalk
+        r5 = sprite.transform.GetChild(5).gameObject; //should get BackWalk
+        r6 = sprite.transform.GetChild(6).gameObject; //should get FrontWalk
+        r7 = sprite.transform.GetChild(7).gameObject; //should get RightWalk
+        r0.SetActive(true); //setting default state, what the player will load in as
+        //values will be used to switch sprite with ChangeSprite function
         lastSprite = 0;
         currentSprite = 0;
     }
@@ -43,6 +47,7 @@ public class CharacterMovement : MonoBehaviour
 
         MovementCheck();
 
+        //logic that determines when to show running animations
         if (movingRight)
         {
             if (!moving)
@@ -79,7 +84,7 @@ public class CharacterMovement : MonoBehaviour
             moving = true;
             playerState = 3;
         }
-        else
+        else //if was moving but isn't anymore, resting sprites
         {
             if (moving)
             {
@@ -101,7 +106,7 @@ public class CharacterMovement : MonoBehaviour
         moveDir = new Vector3(moveX,moveY);
     }
 
-    void MovementCheck()
+    void MovementCheck() //where the input is checked, needs to be called each update
     {
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
@@ -137,7 +142,7 @@ public class CharacterMovement : MonoBehaviour
             movingForward = false;
     }
 
-    void ChangeSprite(int i)
+    void ChangeSprite(int i) //simple function that switches the current sprite with what is passed to it
     {
         lastSprite = currentSprite;
         currentSprite = i;
