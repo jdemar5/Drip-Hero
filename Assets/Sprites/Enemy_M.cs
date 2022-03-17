@@ -17,6 +17,13 @@ public class Enemy_M : MonoBehaviour
     private float health = 0f;
     [SerializeField] private float maxHealth = 100f;
 
+<<<<<<< Updated upstream
+    private void Start() 
+    {
+        health = maxHealth;
+    }
+
+=======
 
 
     public float checkRadius;
@@ -42,7 +49,7 @@ public class Enemy_M : MonoBehaviour
     
     private void Update()
     {
-        anim.SetBool("shouldRotate", shouldRotate);
+        anim.SetBool("isRunning", isInChaseRange);
 
         isInChaseRange = Physics2D.OverlapCircle(transform.position, checkRadius, whatIsPlayer);
         isInAttackRange = Physics2D.OverlapCircle(transform.position, attackRadius, whatIsPlayer);
@@ -58,7 +65,30 @@ public class Enemy_M : MonoBehaviour
         }
     }
 
+    // private void FixedUpdate()
+    // {
+        
+    //     if(isInChaseRange && !isInAttackRange)
+    //     {
+    //         Debug.Log("its in chase range" + checkRadius);
+    //         MoveCharacter(movement);
+    //     }
+    //     if(isInAttackRange)
+    //     {
+    //          Debug.Log("its in attack range" + attackRadius);
+    //         rb.velocity = Vector2.zero;
+    //     }
+    // }
 
+    // private void MoveCharacter(Vector2 dir)
+    // {
+    //     rb.MovePosition((Vector2)transform.position + (dir * speed * Time.deltaTime));
+    //     // float step = speed * Time.deltaTime;
+    //     //       transform.position = Vector2.MoveTowards(transform.position, target.position, step);
+    // }
+
+
+>>>>>>> Stashed changes
     public void takeDamage(float dmg)
     {
         health -= dmg;
@@ -73,7 +103,11 @@ public class Enemy_M : MonoBehaviour
 
 
     private void FixedUpdate(){
-        if (shouldRotate){
+<<<<<<< Updated upstream
+        if (target != null){
+=======
+        if (isInChaseRange){
+>>>>>>> Stashed changes
             float step = speed * Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position, target.position, step);
         }
@@ -81,7 +115,12 @@ public class Enemy_M : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D other)
     {
+<<<<<<< Updated upstream
+       
+
+=======
     
+>>>>>>> Stashed changes
         if (other.gameObject.tag == "Player") 
         {
             if (attackSpeed <= canAttack)
@@ -101,14 +140,14 @@ public class Enemy_M : MonoBehaviour
     {
         if (other.gameObject.tag == "Player"){
             target = other.transform;
-            shouldRotate = true;
+            isInChaseRange = true;
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
          if (other.gameObject.tag == "Player"){
-            shouldRotate = false;
+            isInChaseRange = false;
             target = gameObject.transform;
             rb.velocity = Vector2.zero;
         }
