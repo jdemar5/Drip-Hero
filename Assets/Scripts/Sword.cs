@@ -13,10 +13,12 @@ public class Sword: MonoBehaviour
     float angle;
     bool isSwordLeft;
 
+
     void OnTriggerEnter(Collider other)
     {
-
+        
     }
+
     void Start()
     {
         player = GameObject.Find("Player");

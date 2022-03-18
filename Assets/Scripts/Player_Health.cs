@@ -14,10 +14,13 @@ public class Player_Health : MonoBehaviour
         health = maxHealth;
     }
 
+
+    
+
     public void UpdateHealth(float mod)
     {
         health += mod;
-
+        Debug.Log("player hit Health:" + health);
         if (health > maxHealth)
         {
             health = maxHealth;
@@ -29,26 +32,5 @@ public class Player_Health : MonoBehaviour
         healthBar.SetHealth(health);
     }
 
-    // public float maxHealth = 100;
-    // public float currentHealth;
-    // void Start()
-    // {
-    //     currentHealth = maxHealth;
-    //     healthBar.SetmaxHealth(maxHealth);
-    // }
-
-    // void Update()
-    // {
-    //     if (Input.GetKeyDown(KeyCode.Space))
-    //     {
-    //         TakeDamage(20);
-    //     }
-    // }
-
-    // void TakeDamage(float damage)
-    // {
-    //     currentHealth -= damage;
-
-    //     healthBar.SetHealth(currentHealth);
-    // }
+   
 }

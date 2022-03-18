@@ -10,6 +10,16 @@ public class SwordStrike: MonoBehaviour
     public int damage = 1;
     public Rigidbody2D rb;
     public float lifeTime = 0.07f;
+    private float attackDamage = 10f;
+
+     void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Enemy") 
+        {
+            Enemy_M enemy = other.gameObject.GetComponent<Enemy_M>();
+            enemy.takeDamage(attackDamage);
+        }
+    }
 
     void Start()
     {
@@ -23,6 +33,8 @@ public class SwordStrike: MonoBehaviour
         
     }
 
+    
+   
     IEnumerator LifeTime()
     {
         yield return new WaitForSeconds(lifeTime);
