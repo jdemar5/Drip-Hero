@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61518886}
   - component: {fileID: 61518887}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackDefault
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -469,7 +469,7 @@ GameObject:
   - component: {fileID: 208606971}
   - component: {fileID: 208606973}
   - component: {fileID: 208606972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightWalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,7 +570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 318166845}
   - component: {fileID: 318166846}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightDefault
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,7 +652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 375752122}
   - component: {fileID: 375752123}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftDefault
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -724,6 +724,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
+=======
 --- !u!1 &380534025
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,7 +737,7 @@ GameObject:
   - component: {fileID: 380534026}
   - component: {fileID: 380534028}
   - component: {fileID: 380534027}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SwordSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -828,6 +830,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+>>>>>>> Stashed changes
 --- !u!1 &392104355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,7 +1044,7 @@ GameObject:
   - component: {fileID: 454808368}
   - component: {fileID: 454808370}
   - component: {fileID: 454808369}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftWalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1143,7 +1146,7 @@ GameObject:
   - component: {fileID: 551887585}
   - component: {fileID: 551887587}
   - component: {fileID: 551887586}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontWalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1234,6 +1237,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
+=======
 --- !u!1 &578433491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,7 +1250,7 @@ GameObject:
   - component: {fileID: 578433492}
   - component: {fileID: 578433494}
   - component: {fileID: 578433493}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1301,6 +1306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SwordStrikePrefab: {fileID: 7806680041398936687, guid: d8cc2faa5a3f25d4baad9975238d5ca0, type: 3}
+>>>>>>> Stashed changes
 --- !u!1 &762302301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,7 +1318,7 @@ GameObject:
   - component: {fileID: 762302302}
   - component: {fileID: 762302304}
   - component: {fileID: 762302303}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackWalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1606,6 +1612,8 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
+<<<<<<< Updated upstream
+=======
 --- !u!1 &1084657678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1615,7 +1623,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1084657679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1636,6 +1644,7 @@ Transform:
   m_Father: {fileID: 578433492}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 --- !u!1 &1293766337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,7 +1656,7 @@ GameObject:
   - component: {fileID: 1293766338}
   - component: {fileID: 1293766340}
   - component: {fileID: 1293766339}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -1819,6 +1828,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< Updated upstream
+=======
 --- !u!1 &1377454775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1830,7 +1841,7 @@ GameObject:
   - component: {fileID: 1377454776}
   - component: {fileID: 1377454778}
   - component: {fileID: 1377454777}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1885,6 +1896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ebf445951ab8f47a8c9df765dc291c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
 --- !u!1 &1645088203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1961,7 +1973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1891391113}
   - component: {fileID: 1891391114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontDefault
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2203,7 +2215,7 @@ GameObject:
   - component: {fileID: 2036921615}
   - component: {fileID: 2036921614}
   - component: {fileID: 2036921617}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2286,8 +2298,6 @@ Transform:
   m_Children:
   - {fileID: 2078030888}
   - {fileID: 1293766338}
-  - {fileID: 578433492}
-  - {fileID: 1377454776}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2300,7 +2310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2078030888}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlayerSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2437,6 +2447,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   attackSpeed: 1
+  healthBar: {fileID: 878203443}
+  maxHealth: 100
 --- !u!58 &4068333139603323879
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2474,3 +2486,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3904033347215322816, guid: dd10c729e41d93b489e2c1209fc17974, type: 3}
   m_PrefabInstance: {fileID: 4068333139603323876}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &4068333139603323883
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4068333139603323877}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0

@@ -25,6 +25,7 @@ public class Sword: MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         isSwordLeft = true;
     }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
