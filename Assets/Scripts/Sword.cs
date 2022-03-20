@@ -12,6 +12,7 @@ public class Sword: MonoBehaviour
     Vector3 mousePos;
     float angle;
     bool isSwordLeft;
+    private AudioSource audioSource;
 
 
     void OnTriggerEnter(Collider other)
@@ -24,12 +25,14 @@ public class Sword: MonoBehaviour
         player = GameObject.Find("Player");
         rb = gameObject.GetComponent<Rigidbody2D>();
         isSwordLeft = true;
+        audioSource = this.GetComponent<AudioSource>();
     }
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
+            audioSource.Play();
             if (isSwordLeft)
             {
                 isSwordLeft = false;
