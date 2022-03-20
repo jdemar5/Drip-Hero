@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: 0008d2e84714dd94c988d171ca63c6ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8755135347812891605
+    second: blueguywithidle_0
+  - first:
+      213: -1389711514591023697
+    second: blueguywithidle_1
+  - first:
+      213: 5426111731621134183
+    second: blueguywithidle_2
+  - first:
+      213: 722738425810549972
+    second: blueguywithidle_3
+  - first:
+      213: -5530990353765118374
+    second: blueguywithidle_4
+  - first:
+      213: 1397127000042992964
+    second: blueguywithidle_5
+  - first:
+      213: -3254257433895663376
+    second: blueguywithidle_6
+  - first:
+      213: 4580970338640181715
+    second: blueguywithidle_7
+  - first:
+      213: 1916691197773019092
+    second: blueguywithidle_8
+  - first:
+      213: 4064496221363620726
+    second: blueguywithidle_9
+  - first:
+      213: 5844855102134813446
+    second: blueguywithidle_10
+  - first:
+      213: -9012253652026954885
+    second: blueguywithidle_11
+  - first:
+      213: -5850029596268722753
+    second: blueguywithidle_12
+  - first:
+      213: -7139986577035437496
+    second: blueguywithidle_13
+  - first:
+      213: -4230311102251940563
+    second: blueguywithidle_14
+  - first:
+      213: -6005305956348799084
+    second: blueguywithidle_15
+  - first:
+      213: -4444130360807321568
+    second: blueguywithidle_16
+  - first:
+      213: 345038675847065477
+    second: blueguywithidle_17
+  - first:
+      213: -5880816023760508464
+    second: blueguywithidle_18
+  - first:
+      213: 6299969400176836511
+    second: blueguywithidle_19
+  - first:
+      213: 763001679081352697
+    second: blueguywithidle_20
+  - first:
+      213: -2313702162378593914
+    second: blueguywithidle_21
+  - first:
+      213: -6926393132412880811
+    second: blueguywithidle_22
+  - first:
+      213: -1480260210205786939
+    second: blueguywithidle_23
+  - first:
+      213: -5393624678117961116
+    second: blueguywithidle_24
+  - first:
+      213: 4152463779319419701
+    second: blueguywithidle_25
+  - first:
+      213: 852457585371816501
+    second: blueguywithidle_26
+  - first:
+      213: 4439610375611649870
+    second: blueguywithidle_27
+  - first:
+      213: -994967270002522195
+    second: blueguywithidle_28
+  - first:
+      213: -5192582771342047158
+    second: blueguywithidle_29
+  - first:
+      213: 3215230689672963928
+    second: blueguywithidle_30
+  - first:
+      213: 1679224208573052006
+    second: blueguywithidle_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blueguywithidle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1078
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b248521b9c28f7680800000000000000
+      internalID: -8755135347812891605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1078
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad28809db0c6bce0800000000000000
+      internalID: -1389711514591023697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1078
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f7bd20fdb6d4b40800000000000000
+      internalID: 5426111731621134183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_3
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1078
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc76ffd4cea70a00800000000000000
+      internalID: 722738425810549972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ec7b3e399fd33b0800000000000000
+      internalID: -5530990353765118374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 924
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4457bafaa97936310800000000000000
+      internalID: 1397127000042992964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_6
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 924
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f889fc0b1e86d2d0800000000000000
+      internalID: -3254257433895663376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_7
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 924
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9bf318040e29f30800000000000000
+      internalID: 4580970338640181715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7f0634d74799a10800000000000000
+      internalID: 1916691197773019092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 770
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bcb4957cdf76830800000000000000
+      internalID: 4064496221363620726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_10
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 770
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603006e7fb81d1150800000000000000
+      internalID: 5844855102134813446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_11
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 770
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b673d6d0b0ee280800000000000000
+      internalID: -9012253652026954885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb581e4b31580dea0800000000000000
+      internalID: -5850029596268722753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_13
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 616
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84adeb6990ca9ec90800000000000000
+      internalID: -7139986577035437496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_14
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 616
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25c1e4377aea45c0800000000000000
+      internalID: -4230311102251940563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_15
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 616
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497da48dc0ed8aca0800000000000000
+      internalID: -6005305956348799084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0201d8c9bf64352c0800000000000000
+      internalID: -4444130360807321568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 462
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fa2abf8d2d9c400800000000000000
+      internalID: 345038675847065477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_18
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 462
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9645afbf4236ea0800000000000000
+      internalID: -5880816023760508464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_19
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 462
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ffe517accfd6750800000000000000
+      internalID: 6299969400176836511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdabac0cf9b69a00800000000000000
+      internalID: 763001679081352697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 308
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689ee5f442414efd0800000000000000
+      internalID: -2313702162378593914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_22
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 308
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55833d7c42280ef90800000000000000
+      internalID: -6926393132412880811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_23
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 308
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccf98b7e2f057be0800000000000000
+      internalID: -1480260210205786939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4629ff09eeef525b0800000000000000
+      internalID: -5393624678117961116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_25
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 154
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533920d7ec380a930800000000000000
+      internalID: 4152463779319419701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_26
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 154
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532ac2a48a984db00800000000000000
+      internalID: 852457585371816501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_27
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 154
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f88735d1aac9d30800000000000000
+      internalID: 4439610375611649870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da70c5c1a8a2132f0800000000000000
+      internalID: -994967270002522195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_29
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48085f1b7d30f7b0800000000000000
+      internalID: -5192582771342047158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_30
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85724e8f64bce9c20800000000000000
+      internalID: 3215230689672963928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguywithidle_31
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 0
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664bb32558dcd4710800000000000000
+      internalID: 1679224208573052006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
