@@ -11,22 +11,33 @@ public class Sword: MonoBehaviour
     private Rigidbody2D rb;
     Vector3 mousePos;
     float angle;
-    bool isSwordLeft;
+    private bool isSwordLeft, onCooldown;
+    private AudioSource audioSource;
+    private Weapon weapon;
+    private float cooldownTime;
+
 
     void OnTriggerEnter(Collider other)
     {
-
+        
     }
+
     void Start()
     {
         player = GameObject.Find("Player");
         rb = gameObject.GetComponent<Rigidbody2D>();
         isSwordLeft = true;
+        audioSource = this.GetComponent<AudioSource>();
+        weapon = GameObject.Find("Weapon").GetComponent<Weapon>();
+        cooldownTime = weapon.GetCooldownTime();
     }
+
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !onCooldown)
         {
+            audioSource.Play();
+            StartCoroutine("Cooldown");
             if (isSwordLeft)
             {
                 isSwordLeft = false;
@@ -51,5 +62,12 @@ public class Sword: MonoBehaviour
             Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
             rb.MoveRotation(rotation);
         }
+    }
+    
+    IEnumerator Cooldown()
+    {
+        onCooldown = true;
+        yield return new WaitForSeconds(cooldownTime);
+        onCooldown = false;
     }
 }
