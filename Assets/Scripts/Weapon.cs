@@ -20,8 +20,8 @@ public class Weapon : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        rb = gameObject.GetComponent<Rigidbody2D>();
-        firePoint = this.transform.GetChild(0);
+        rb = this.transform.GetChild(1).GetComponent<Rigidbody2D>();
+        firePoint = this.transform.GetChild(1).transform.GetChild(0);
         onCooldown = false;
     }
 
