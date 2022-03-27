@@ -19,6 +19,11 @@ public class SwordStrike: MonoBehaviour
             Enemy_M enemy = other.gameObject.GetComponent<Enemy_M>();
             enemy.takeDamage(attackDamage);
         }
+         else if (other.gameObject.tag == "Boss_1") 
+        {
+            Boss_1 enemy = other.gameObject.GetComponent<Boss_1>();
+            enemy.takeDamage(attackDamage);
+        }
     }
 
     void Start()
