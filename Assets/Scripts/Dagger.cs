@@ -21,10 +21,10 @@ public class Dagger : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        rb = gameObject.GetComponent<Rigidbody2D>();
+        rb = this.transform.GetChild(0).GetComponent<Rigidbody2D>();
         isDaggerLeft = true;
         audioSource = this.GetComponent<AudioSource>();
-        weapon = GameObject.Find("Weapon").GetComponent<Weapon>();
+        weapon = this.GetComponent<Weapon>();
         cooldownTime = weapon.GetCooldownTime();
 
     }

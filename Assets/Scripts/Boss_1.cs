@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_M : MonoBehaviour
+public class Boss_1 : MonoBehaviour
 {
+    
     [SerializeField] private float attackSpeed = 1f;
     [SerializeField] private float maxHealth = 400f;
 
@@ -60,6 +61,10 @@ public class Enemy_M : MonoBehaviour
         health -= dmg;
         Debug.Log("Enemy Health:" + health);
 
+        if (health <= 200)
+        {
+            isHalf = true;
+        }
         if (health <= 0)
         {
             audioSource.Play();
@@ -79,11 +84,16 @@ public class Enemy_M : MonoBehaviour
         if(isInAttackRange){
             rb.velocity = Vector2.zero;
         }
+        if(isHalf)
+        {
+            speed = 6f;
+            attackDamage = 15f;
+            anim.SetBool("belowHalf", true);
+        }
     }
 
     private void OnCollisionStay2D(Collision2D other)
     {
-    
         if (other.gameObject.tag == "Player") 
         {
             isInAttackRange =true;
