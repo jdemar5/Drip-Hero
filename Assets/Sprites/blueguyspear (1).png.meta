@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: b5342b8669130d74e94887dfd5cddff6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -513930414899129613
+    second: blueguyspear (1)_0
+  - first:
+      213: -1311865394426227971
+    second: blueguyspear (1)_1
+  - first:
+      213: 3120051640363907891
+    second: blueguyspear (1)_2
+  - first:
+      213: 1465863608213475643
+    second: blueguyspear (1)_3
+  - first:
+      213: -5242315350003191861
+    second: blueguyspear (1)_4
+  - first:
+      213: -7312484242996934512
+    second: blueguyspear (1)_5
+  - first:
+      213: -8273348539358322863
+    second: blueguyspear (1)_6
+  - first:
+      213: -816223366579280928
+    second: blueguyspear (1)_7
+  - first:
+      213: -3448316408302647307
+    second: blueguyspear (1)_8
+  - first:
+      213: 7763120510454253990
+    second: blueguyspear (1)_9
+  - first:
+      213: -647504033156512216
+    second: blueguyspear (1)_10
+  - first:
+      213: 6582978347689455810
+    second: blueguyspear (1)_11
+  - first:
+      213: 1753953835312234955
+    second: blueguyspear (1)_12
+  - first:
+      213: 6455451337952815472
+    second: blueguyspear (1)_13
+  - first:
+      213: -2384870973089248890
+    second: blueguyspear (1)_14
+  - first:
+      213: 3070011246632153138
+    second: blueguyspear (1)_15
+  - first:
+      213: 527194422457861755
+    second: blueguyspear (1)_16
+  - first:
+      213: -5212132000257411002
+    second: blueguyspear (1)_17
+  - first:
+      213: -2741491143960450377
+    second: blueguyspear (1)_18
+  - first:
+      213: -8548794759006103302
+    second: blueguyspear (1)_19
+  - first:
+      213: 1383724175825669905
+    second: blueguyspear (1)_20
+  - first:
+      213: -940355510476949029
+    second: blueguyspear (1)_21
+  - first:
+      213: -1965701714010819832
+    second: blueguyspear (1)_22
+  - first:
+      213: 6852519150070476565
+    second: blueguyspear (1)_23
+  - first:
+      213: 306172359970817864
+    second: blueguyspear (1)_24
+  - first:
+      213: 6538407013460588032
+    second: blueguyspear (1)_25
+  - first:
+      213: -7785868516033229825
+    second: blueguyspear (1)_26
+  - first:
+      213: 1945549891463824469
+    second: blueguyspear (1)_27
+  - first:
+      213: 6359090013098014167
+    second: blueguyspear (1)_28
+  - first:
+      213: 9151146745260996583
+    second: blueguyspear (1)_29
+  - first:
+      213: -1471816487274410566
+    second: blueguyspear (1)_30
+  - first:
+      213: -2667498336229853333
+    second: blueguyspear (1)_31
+  - first:
+      213: 8749154277054451918
+    second: blueguyspear (1)_32
+  - first:
+      213: 7912130168276375812
+    second: blueguyspear (1)_33
+  - first:
+      213: 312559737981064268
+    second: blueguyspear (1)_34
+  - first:
+      213: 5206271255036834779
+    second: blueguyspear (1)_35
+  - first:
+      213: -3613486461384646396
+    second: blueguyspear (1)_36
+  - first:
+      213: -7452563279881413539
+    second: blueguyspear (1)_37
+  - first:
+      213: 3605003752964183828
+    second: blueguyspear (1)_38
+  - first:
+      213: 5641904518489112902
+    second: blueguyspear (1)_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blueguyspear (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1078
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f21ba4b2072ed8f0800000000000000
+      internalID: -513930414899129613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1078
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2d814df515bcde0800000000000000
+      internalID: -1311865394426227971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1078
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bf3c8af66ac4b20800000000000000
+      internalID: 3120051640363907891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_3
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1078
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b319cb86f2bc75410800000000000000
+      internalID: 1465863608213475643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_4
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1078
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf6b72d6fd8f37b0800000000000000
+      internalID: -5242315350003191861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098c68ef256d48a90800000000000000
+      internalID: -7312484242996934512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_6
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 924
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fdc8866592f2d80800000000000000
+      internalID: -8273348539358322863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 924
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e32ba13c213ca4f0800000000000000
+      internalID: -816223366579280928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_8
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 924
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f748f12f7e1520d0800000000000000
+      internalID: -3448316408302647307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_9
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 924
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9cc2639f42cbb60800000000000000
+      internalID: 7763120510454253990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826c211338a9307f0800000000000000
+      internalID: -647504033156512216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 770
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c03e1addef6b5b50800000000000000
+      internalID: 6582978347689455810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_12
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 770
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1483a68bb475810800000000000000
+      internalID: 1753953835312234955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_13
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 770
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0796f771ace569950800000000000000
+      internalID: 6455451337952815472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_14
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 770
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68900ed4c7c37eed0800000000000000
+      internalID: -2384870973089248890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230b6f396feda9a20800000000000000
+      internalID: 3070011246632153138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_16
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 616
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b760b26b888f05700800000000000000
+      internalID: 527194422457861755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_17
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 616
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648f5329f89caa7b0800000000000000
+      internalID: -5212132000257411002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_18
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 616
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7baab51645444f9d0800000000000000
+      internalID: -2741491143960450377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_19
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 616
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af858bbc5749c5980800000000000000
+      internalID: -8548794759006103302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f853f7ec9f33310800000000000000
+      internalID: 1383724175825669905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 462
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9b07b35af23f2f0800000000000000
+      internalID: -940355510476949029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_22
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 462
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8033202b4bc68b4e0800000000000000
+      internalID: -1965701714010819832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_23
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 462
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f238c5cd9091f50800000000000000
+      internalID: 6852519150070476565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_24
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 462
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8478a14a32ebf3400800000000000000
+      internalID: 306172359970817864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006bd3a69861dba50800000000000000
+      internalID: 6538407013460588032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_26
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 308
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb01f106d903f390800000000000000
+      internalID: -7785868516033229825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_27
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 308
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554408d715bfffa10800000000000000
+      internalID: 1945549891463824469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_28
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 308
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5f07dcca6004850800000000000000
+      internalID: 6359090013098014167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_29
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 308
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7f0ceda776ffe70800000000000000
+      internalID: 9151146745260996583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd027de3be039be0800000000000000
+      internalID: -1471816487274410566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_31
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 154
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67f21e65642bfad0800000000000000
+      internalID: -2667498336229853333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_32
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 154
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec09be0c57d3b6970800000000000000
+      internalID: 8749154277054451918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_33
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 154
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409d3c0c7788dcd60800000000000000
+      internalID: 7912130168276375812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_34
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 154
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c445379fc6f665400800000000000000
+      internalID: 312559737981064268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd33cc85f14604840800000000000000
+      internalID: 5206271255036834779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_36
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4012c7c55315addc0800000000000000
+      internalID: -3613486461384646396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_37
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c5c8cae2d239890800000000000000
+      internalID: -7452563279881413539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_38
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 0
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417516d20db870230800000000000000
+      internalID: 3605003752964183828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguyspear (1)_39
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 0
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641073974421c4e40800000000000000
+      internalID: 5641904518489112902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

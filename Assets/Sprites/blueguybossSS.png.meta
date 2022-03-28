@@ -1,0 +1,1260 @@
+fileFormatVersion: 2
+guid: fa2d99c3eb26a324ab7a104f6e0df057
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6246765754805885994
+    second: blueguybossSS_0
+  - first:
+      213: -1154372532726720839
+    second: blueguybossSS_1
+  - first:
+      213: 7097889446443053466
+    second: blueguybossSS_2
+  - first:
+      213: -8822090979839709458
+    second: blueguybossSS_3
+  - first:
+      213: -6635816757379571475
+    second: blueguybossSS_4
+  - first:
+      213: 5776341555626433632
+    second: blueguybossSS_5
+  - first:
+      213: 8613877974846698471
+    second: blueguybossSS_6
+  - first:
+      213: 8974664998632793981
+    second: blueguybossSS_7
+  - first:
+      213: -1993170715270747173
+    second: blueguybossSS_8
+  - first:
+      213: 6124236856670695475
+    second: blueguybossSS_9
+  - first:
+      213: -4199296966387534455
+    second: blueguybossSS_10
+  - first:
+      213: 9101960079148250926
+    second: blueguybossSS_11
+  - first:
+      213: -2004462463487192058
+    second: blueguybossSS_12
+  - first:
+      213: -7696956918215556249
+    second: blueguybossSS_13
+  - first:
+      213: -8261520439114188608
+    second: blueguybossSS_14
+  - first:
+      213: 4202013743127891241
+    second: blueguybossSS_15
+  - first:
+      213: -9171584781340100782
+    second: blueguybossSS_16
+  - first:
+      213: -4200155529556225412
+    second: blueguybossSS_17
+  - first:
+      213: -2604892684696357927
+    second: blueguybossSS_18
+  - first:
+      213: -201054807105817066
+    second: blueguybossSS_19
+  - first:
+      213: 147504425955840553
+    second: blueguybossSS_20
+  - first:
+      213: 5293389357227268418
+    second: blueguybossSS_21
+  - first:
+      213: -4294293482410305149
+    second: blueguybossSS_22
+  - first:
+      213: 7068076773508991028
+    second: blueguybossSS_23
+  - first:
+      213: 1634790876100492871
+    second: blueguybossSS_24
+  - first:
+      213: 3958147727751045893
+    second: blueguybossSS_25
+  - first:
+      213: 7581354266114595042
+    second: blueguybossSS_26
+  - first:
+      213: 5400860991237127448
+    second: blueguybossSS_27
+  - first:
+      213: -6019568667833978224
+    second: blueguybossSS_28
+  - first:
+      213: 6417911071567712554
+    second: blueguybossSS_29
+  - first:
+      213: 1602385509926104127
+    second: blueguybossSS_30
+  - first:
+      213: 3405578355583668035
+    second: blueguybossSS_31
+  - first:
+      213: -5533774184815391924
+    second: blueguybossSS_32
+  - first:
+      213: -5111047717026803978
+    second: blueguybossSS_33
+  - first:
+      213: -244285202191315091
+    second: blueguybossSS_34
+  - first:
+      213: 4143512538167082633
+    second: blueguybossSS_35
+  - first:
+      213: -4905623301480405325
+    second: blueguybossSS_36
+  - first:
+      213: -6240274170855421922
+    second: blueguybossSS_37
+  - first:
+      213: 980380294505743293
+    second: blueguybossSS_38
+  - first:
+      213: -2059399398677753530
+    second: blueguybossSS_39
+  - first:
+      213: 3345460070075762242
+    second: blueguybossSS_40
+  - first:
+      213: 3797030243865065767
+    second: blueguybossSS_41
+  - first:
+      213: -8308951238355148826
+    second: blueguybossSS_42
+  - first:
+      213: -3784081447750894942
+    second: blueguybossSS_43
+  - first:
+      213: 2973781570210598012
+    second: blueguybossSS_44
+  - first:
+      213: 2411380035793521667
+    second: blueguybossSS_45
+  - first:
+      213: -3746070964695382581
+    second: blueguybossSS_46
+  - first:
+      213: -4346984422482020762
+    second: blueguybossSS_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blueguybossSS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2358
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c97427b58f0b650800000000000000
+      internalID: 6246765754805885994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2358
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b61b503c48daffe0800000000000000
+      internalID: -1154372532726720839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_2
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 2358
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a917b3668d4c08260800000000000000
+      internalID: 7097889446443053466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_3
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 2358
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeee97acef2a19580800000000000000
+      internalID: -8822090979839709458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_4
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 2358
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de06ec531d7d8e3a0800000000000000
+      internalID: -6635816757379571475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2096
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cd07c5a00b92050800000000000000
+      internalID: 5776341555626433632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_6
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2096
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e37c4d3164aa8770800000000000000
+      internalID: 8613877974846698471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_7
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 2096
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77a3a5344a6c8c70800000000000000
+      internalID: 8974664998632793981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_8
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 2096
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb63937bc5d654e0800000000000000
+      internalID: -1993170715270747173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_9
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 2096
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330363a39f8adf450800000000000000
+      internalID: 6124236856670695475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1834
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985781c68a919b5c0800000000000000
+      internalID: -4199296966387534455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1834
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27fa6db778a05e70800000000000000
+      internalID: 9101960079148250926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_12
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1834
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604dd327208be24e0800000000000000
+      internalID: -2004462463487192058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_13
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1834
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763c64e867aee2590800000000000000
+      internalID: -7696956918215556249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_14
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1834
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c838f99eee295d80800000000000000
+      internalID: -8261520439114188608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1572
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d82747c3d805a30800000000000000
+      internalID: 4202013743127891241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_16
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1572
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25738d80c3cf7b080800000000000000
+      internalID: -9171584781340100782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_17
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1572
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72986b9ccc06b5c0800000000000000
+      internalID: -4200155529556225412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_18
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1572
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3f8a297ef89dbd0800000000000000
+      internalID: -2604892684696357927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_19
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1572
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616b21ad7b5b53df0800000000000000
+      internalID: -201054807105817066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1310
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92255ef6e7a0c0200800000000000000
+      internalID: 147504425955840553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1310
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2495d572395e57940800000000000000
+      internalID: 5293389357227268418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_22
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1310
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38998a374da9764c0800000000000000
+      internalID: -4294293482410305149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_23
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1310
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4384132906ad61260800000000000000
+      internalID: 7068076773508991028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_24
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1310
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ef40ce3a1ffa610800000000000000
+      internalID: 1634790876100492871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1048
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503ee11236a2ee630800000000000000
+      internalID: 3958147727751045893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_26
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1048
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8172c8981663960800000000000000
+      internalID: 7581354266114595042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_27
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1048
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81df3ffd476b3fa40800000000000000
+      internalID: 5400860991237127448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_28
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1048
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0923fac8032367ca0800000000000000
+      internalID: -6019568667833978224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_29
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1048
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2117d4bd10011950800000000000000
+      internalID: 6417911071567712554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 786
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ce068a121dc3610800000000000000
+      internalID: 1602385509926104127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_31
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 786
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fc25b887b034f20800000000000000
+      internalID: 3405578355583668035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_32
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 786
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b0ad6b2b51433b0800000000000000
+      internalID: -5533774184815391924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_33
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 786
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fecb8c4e29e119b0800000000000000
+      internalID: -5111047717026803978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_34
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 786
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f808327ef1c9cf0800000000000000
+      internalID: -244285202191315091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 524
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e73df33b6b08930800000000000000
+      internalID: 4143512538167082633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_36
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 524
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6a1613999bbebb0800000000000000
+      internalID: -4905623301480405325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_37
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 524
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e180e1934b71669a0800000000000000
+      internalID: -6240274170855421922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_38
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 524
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3cecefea20b9d00800000000000000
+      internalID: 980380294505743293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_39
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 524
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641d827782b8b63e0800000000000000
+      internalID: -2059399398677753530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2468e1f65367d6e20800000000000000
+      internalID: 3345460070075762242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_41
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 262
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729fdf6a3e2c1b430800000000000000
+      internalID: 3797030243865065767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_42
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 262
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef9cc51fdca0bc80800000000000000
+      internalID: -8308951238355148826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_43
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 262
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa79a1e8fd3c7bc0800000000000000
+      internalID: -3784081447750894942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_44
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 262
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c8104159ef44920800000000000000
+      internalID: 2973781570210598012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c01f3dd51f67120800000000000000
+      internalID: 2411380035793521667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_46
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc54ded1e48430cc0800000000000000
+      internalID: -3746070964695382581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueguybossSS_47
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 0
+        width: 433
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6667dc5f2b86ca3c0800000000000000
+      internalID: -4346984422482020762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
