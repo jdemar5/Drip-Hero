@@ -29,12 +29,15 @@ public class Boss_1 : MonoBehaviour
     public bool isInChaseRange = false;
     private bool isInAttackRange = false;
 
+    private AudioSource audioSource;
+
     private void Start()
     {
         health = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
+        audioSource = GameObject.Find("DeathAudio").GetComponent<AudioSource>();
     }
     
     private void Update()
@@ -64,6 +67,7 @@ public class Boss_1 : MonoBehaviour
         }
         if (health <= 0)
         {
+            audioSource.Play();
             Destroy(gameObject);
         }
         healthBar.SetHealth(health);
