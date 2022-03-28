@@ -25,10 +25,10 @@ public class Sword: MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        rb = this.transform.GetChild(0).GetComponent<Rigidbody2D>();
+        rb = gameObject.GetComponent<Rigidbody2D>();
         isSwordLeft = true;
         audioSource = this.GetComponent<AudioSource>();
-        weapon = this.GetComponent<Weapon>();
+        weapon = GameObject.Find("Weapon").GetComponent<Weapon>();
         cooldownTime = weapon.GetCooldownTime();
     }
 
