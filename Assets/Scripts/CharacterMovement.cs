@@ -10,7 +10,7 @@ public class CharacterMovement : MonoBehaviour
     private const float MOVE_SPEED = 8f;
     private Rigidbody2D rb; 
     private Vector3 moveDir;
-    bool movingRight, movingLeft, movingForward, movingBackward, moving;
+    bool movingRight, movingLeft, movingForward, movingBackward, moving, switchSprite;
     GameObject sprite;
     GameObject r0, r1, r2, r3, r4, r5, r6, r7;
     int lastSprite, currentSprite, playerState;
@@ -33,6 +33,7 @@ public class CharacterMovement : MonoBehaviour
         //values will be used to switch sprite with ChangeSprite function
         lastSprite = 0;
         currentSprite = 0;
+        switchSprite = false;
     }
 
     void Awake(){
@@ -48,59 +49,43 @@ public class CharacterMovement : MonoBehaviour
         MovementCheck();
 
         //logic that determines when to show running animations
-        if (movingRight)
+        if(movingRight || movingLeft || movingForward || movingBackward)
         {
-            if (!moving)
-            {
-                ChangeSprite(7);
-            }
             moving = true;
-            playerState = 0;
         }
-        else if (movingLeft)
+        else
         {
-            if (!moving)
-            {
-                ChangeSprite(4);
-            }
-            moving = true;
-            playerState = 1;
-        }
-        else if (movingForward)
-        {
-            if (!moving)
-            {
-                ChangeSprite(6);
-            }
-            moving = true;
-            playerState = 2;
-        }
-        else if (movingBackward)
-        {
-            if (!moving)
-            {
-                ChangeSprite(5);
-            }
-            moving = true;
-            playerState = 3;
-        }
-        else //if was moving but isn't anymore, resting sprites
-        {
-            if (moving)
-            {
-                switch (playerState)
-                {
-                    case 0:
-                        ChangeSprite(3); break;
-                    case 1:
-                        ChangeSprite(0); break;
-                    case 2:
-                        ChangeSprite(2); break;
-                    case 3:
-                        ChangeSprite(1); break;
-                }
-            }
             moving = false;
+        }
+
+        if (!moving)
+        {
+            switch (playerState)
+            {
+                case 0:
+                    ChangeSprite(3); break;
+                case 1:
+                    ChangeSprite(0); break;
+                case 2:
+                    ChangeSprite(1); break;
+                case 3:
+                    ChangeSprite(2); break;
+            }
+        }
+        else if (switchSprite)
+        {
+            switch (playerState)
+            {
+                case 0:
+                    ChangeSprite(7); break;
+                case 1:
+                    ChangeSprite(4); break;
+                case 2:
+                    ChangeSprite(5); break;
+                case 3:
+                    ChangeSprite(6); break;
+            }
+            switchSprite = false;
         }
 
         moveDir = new Vector3(moveX,moveY);
@@ -125,19 +110,35 @@ public class CharacterMovement : MonoBehaviour
             moveX = +1f;
         }
         if (Input.GetKeyDown(KeyCode.D))
+        {
             movingRight = true;
+            playerState = 0;
+            switchSprite = true;
+        }
         if (Input.GetKeyUp(KeyCode.D))
             movingRight = false;
         if (Input.GetKeyDown(KeyCode.A))
+        {
             movingLeft = true;
+            playerState = 1;
+            switchSprite = true;
+        }
         if (Input.GetKeyUp(KeyCode.A))
             movingLeft = false;
         if (Input.GetKeyDown(KeyCode.S))
+        {
             movingBackward = true;
+            playerState = 2;
+            switchSprite = true;
+        }
         if (Input.GetKeyUp(KeyCode.S))
             movingBackward = false;
         if (Input.GetKeyDown(KeyCode.W))
+        {
             movingForward = true;
+            playerState = 3;
+            switchSprite = true;
+        }
         if (Input.GetKeyUp(KeyCode.W))
             movingForward = false;
     }
