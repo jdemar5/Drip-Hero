@@ -71,6 +71,9 @@ TextureImporter:
   - first:
       213: -231008931986528740
     second: basictileset 1_22
+  - first:
+      213: 2146549594842151047
+    second: basictileset 1_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -638,6 +641,27 @@ TextureImporter:
       bones: []
       spriteID: c16200da99a4bccf0800000000000000
       internalID: -231008931986528740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basictileset 1_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788335dcb731acd10800000000000000
+      internalID: 2146549594842151047
       vertices: []
       indices: 
       edges: []
