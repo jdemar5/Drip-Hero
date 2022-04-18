@@ -6,6 +6,8 @@ public class Enemy_S : MonoBehaviour
 {
     [SerializeField] private float attackSpeed = 1f;
     [SerializeField] private float maxHealth = 100f;
+    [SerializeField] private Transform enemy;
+    [SerializeField] private Transform RespawnPoint;
 
     public float speed = 3f;
     public float checkRadius;
@@ -69,7 +71,7 @@ public class Enemy_S : MonoBehaviour
             audioSource.Play();
             Destroy(gameObject);
             Vector3 position = transform.position;
-            if(gameObject.tag == "Enemy_S"){
+            if(gameObject.tag == "Enemy_S" || gameObject.tag == "Enemy_S2"){
             Enemy_Child = Instantiate(Enemy_Child, position + new Vector3(1.0f, 0.0f, 0.0f), Quaternion.identity);
             Enemy_Child = Instantiate(Enemy_Child, position + new Vector3(-1.0f, 0.0f, 0.0f), Quaternion.identity);
             divNum++;
@@ -80,6 +82,7 @@ public class Enemy_S : MonoBehaviour
         }
         healthBar.SetHealth(health);
     }
+
 
 
     private void FixedUpdate(){

@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Player Strike
   - Boss_1
+  - Enemy_S
+  - Enemy_C
   layers:
   - Default
   - TransparentFX
