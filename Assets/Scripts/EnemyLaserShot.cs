@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyLaserShot : MonoBehaviour
 {
     public float attackDamage= 10f;
+    public float lifeTime = 2f;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -18,5 +19,15 @@ public class EnemyLaserShot : MonoBehaviour
             
             Destroy(gameObject);
         }
+    }
+
+    void Start()
+    {
+        StartCoroutine("LifeTime");
+    }
+    IEnumerator LifeTime()
+    {
+        yield return new WaitForSeconds(lifeTime);
+        Destroy(gameObject);
     }
 }
