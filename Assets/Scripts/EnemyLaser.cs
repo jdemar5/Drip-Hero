@@ -19,6 +19,8 @@ public class EnemyLaser : MonoBehaviour
     private Animator anim;
     private bool Phase2;
     private bool Phase3;
+    private bool cutscene1Ended;
+    private bool cutscene2Ended;
     public bool isFiring;
     
 
@@ -32,7 +34,9 @@ public class EnemyLaser : MonoBehaviour
     {
         Phase2 = GameObject.FindWithTag("PurpleKing").GetComponent<PurpleKing>().Phase2;
         Phase3 = GameObject.FindWithTag("PurpleKing").GetComponent<PurpleKing>().Phase3;
-        if(Phase2){
+        cutscene1Ended = GameObject.FindWithTag("PurpleKing").GetComponent<PurpleKing>().cutscene1Ended;
+        cutscene2Ended = GameObject.FindWithTag("PurpleKing").GetComponent<PurpleKing>().cutscene2Ended;
+        if(Phase2 && cutscene1Ended){
 
         float distanceToPlayer = Vector3.Distance (transform.position, target.position);
         if (distanceToPlayer < attackRange)
@@ -64,7 +68,7 @@ public class EnemyLaser : MonoBehaviour
             }
             
         }
-        else if(Phase3){
+        else if(Phase3 && cutscene2Ended){
             attackDelay=0.1f;
             float distanceToPlayer = Vector3.Distance (transform.position, target.position);
         if (distanceToPlayer < attackRange)

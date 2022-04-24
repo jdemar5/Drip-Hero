@@ -41,8 +41,17 @@ public class PurpleKing : MonoBehaviour
 
     public bool isInChaseRange = false;
     private bool isInAttackRange = false;
+    public bool cutscene1Ended = false;
+    private bool cutscene1Started = false;
+    public bool cutscene2Ended = false;
+    private bool cutscene2Started = false;
 
     private AudioSource audioSource;
+    private GameObject timeline1;
+    private GameObject timeline2;
+    private AudioSource bosstheme;
+    private AudioSource bgm;
+    private AudioSource wintheme;
 
     private void Start()
     {
@@ -51,6 +60,13 @@ public class PurpleKing : MonoBehaviour
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
         audioSource = GameObject.Find("DeathAudio").GetComponent<AudioSource>();
+        timeline1 = GameObject.Find("Timeline1");
+        timeline2 = GameObject.Find("Timeline2");
+        bosstheme = GameObject.Find("BossBGM").GetComponent<AudioSource>();
+        bgm = GameObject.Find("BGM").GetComponent<AudioSource>();
+        wintheme = GameObject.Find("WinBGM").GetComponent<AudioSource>();
+        timeline1.SetActive(false);
+        timeline2.SetActive(false);
         Phase1 = true;
         Phase2 = false;
     }
@@ -79,9 +95,11 @@ public class PurpleKing : MonoBehaviour
 
         if (health <= 0)
         {
-                Destroy(gameObject);
+            bosstheme.Stop();
+            wintheme.Play();
+            Destroy(gameObject);
             Vector3 position = transform.position;
-                Coin = Instantiate(Coin, position, Quaternion.identity);
+            Coin = Instantiate(Coin, position, Quaternion.identity);
         }
         healthBar.SetHealth(health);
     }
@@ -90,12 +108,12 @@ public class PurpleKing : MonoBehaviour
 
     private void FixedUpdate(){
         
-        if(Spawndeath>5)
+        if(Spawndeath>5 && Phase1)
         {
             Phase1= false;
             Phase2 = true;
         }
-        if(health<200)
+        if(health<200 && Phase2)
         {
             Phase2= false;
             Phase3 = true;
@@ -105,20 +123,44 @@ public class PurpleKing : MonoBehaviour
             health = maxHealth;
         }
         else if(Phase2){
-            canAttack += Time.deltaTime;
-            if (shouldRotate && !isInAttackRange){ 
-                float step = speed * Time.deltaTime;
-                transform.position = Vector2.MoveTowards(transform.position, target.position, step);
+            if (cutscene1Ended)
+            {
+                canAttack += Time.deltaTime;
+                if (shouldRotate && !isInAttackRange)
+                {
+                    float step = speed * Time.deltaTime;
+                    transform.position = Vector2.MoveTowards(transform.position, target.position, step);
+                }
+                if (isInAttackRange)
+                {
+                    rb.velocity = Vector2.zero;
+                }
             }
-            if(isInAttackRange){
-                rb.velocity = Vector2.zero;
+            else if(!cutscene1Started)
+            {
+                StartCoroutine("Cutscene1");
+            }
+            else
+            {
+                health = maxHealth;
             }
             
         }
         else if(Phase3)
         {
-            anim.SetBool("fallingDown", true);
-            anim.SetBool("laserStart", true);
+            if (cutscene2Ended)
+            {
+                anim.SetBool("fallingDown", true);
+                anim.SetBool("laserStart", true);
+            }
+            else if (!cutscene2Started)
+            {
+                StartCoroutine("Cutscene2");
+            }
+            else
+            {
+                health = maxHealth;
+            }
         }
     }
 
@@ -155,6 +197,8 @@ public class PurpleKing : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player"){
+            bgm.Stop();
+            bosstheme.Play();
             target = other.transform;
             if(Phase2){
             shouldRotate = true;
@@ -174,5 +218,21 @@ public class PurpleKing : MonoBehaviour
             target = gameObject.transform;
             rb.velocity = Vector2.zero;
         }
+    }
+
+    IEnumerator Cutscene1()
+    {
+        cutscene1Started = true;
+        timeline1.SetActive(true);
+        yield return new WaitForSeconds(6.63f);
+        cutscene1Ended = true;
+    }
+
+    IEnumerator Cutscene2()
+    {
+        cutscene2Started = true;
+        timeline2.SetActive(true);
+        yield return new WaitForSeconds(4.71f);
+        cutscene2Ended = true;
     }
 }
