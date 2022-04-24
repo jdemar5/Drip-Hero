@@ -2,12 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_S : MonoBehaviour
+public class SummonedEnemy_R : MonoBehaviour
 {
     [SerializeField] private float attackSpeed = 1f;
     [SerializeField] private float maxHealth = 100f;
-    [SerializeField] private Transform enemy;
-    [SerializeField] private Transform RespawnPoint;
 
     public float speed = 3f;
     public float checkRadius;
@@ -18,8 +16,6 @@ public class Enemy_S : MonoBehaviour
     public bool shouldAttack;
     public bool isHalf;
     public GameObject Coin;
-    public GameObject Enemy_Child;
-    public float divNum= 3f;
 
     private float health = 0f;
     private float canAttack;
@@ -29,11 +25,8 @@ public class Enemy_S : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     private Vector3 dir;
-
-    public bool isInChaseRange = false;
-    private bool isInAttackRange = false;
-
-    private AudioSource audioSource;
+    private SpriteRenderer rend;
+    
 
     private void Start()
     {
@@ -41,7 +34,7 @@ public class Enemy_S : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
-        audioSource = GameObject.Find("DeathAudio").GetComponent<AudioSource>();
+        // rend = GameObject.FindWithTag("EnemyBow").GetComponent<SpriteRenderer>();
     }
     
     private void Update()
@@ -52,6 +45,13 @@ public class Enemy_S : MonoBehaviour
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         dir.Normalize();
         movement = dir;
+        
+        // if( dir.y > dir.x){
+        //     rend.sortingOrder = 0;
+        // }
+        // else{
+        //     rend.sortingOrder = 2;
+        // }
         if(shouldRotate)
         {
             anim.SetFloat("X", dir.x);
@@ -67,33 +67,26 @@ public class Enemy_S : MonoBehaviour
 
         if (health <= 0)
         {
-            
-            audioSource.Play();
             Destroy(gameObject);
             Vector3 position = transform.position;
-            if(gameObject.tag == "Enemy_S" || gameObject.tag == "Enemy_S2"){
-            Enemy_Child = Instantiate(Enemy_Child, position + new Vector3(1.0f, 0.0f, 0.0f), Quaternion.identity);
-            Enemy_Child = Instantiate(Enemy_Child, position + new Vector3(-1.0f, 0.0f, 0.0f), Quaternion.identity);
-            }
-            else{
-                Coin = Instantiate(Coin, position, Quaternion.identity);
-            }
+            Coin = Instantiate(Coin, position, Quaternion.identity);
+            GameObject.FindWithTag("PurpleKing").GetComponent<PurpleKing>().Spawndeath++;
+            GameObject.FindWithTag("EnemyLaser").GetComponent<EnemyLaser>().Spawndeath++;
         }
         healthBar.SetHealth(health);
     }
 
 
-
     private void FixedUpdate(){
         
-        canAttack += Time.deltaTime;
-        if (shouldRotate && !isInAttackRange){ 
-            float step = speed * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, target.position, step);
-        }
-        if(isInAttackRange){
-            rb.velocity = Vector2.zero;
-        }
+        // canAttack += Time.deltaTime;
+        // if (shouldRotate && !isInAttackRange){ 
+        //     float step = speed * Time.deltaTime;
+        //     transform.position = Vector2.MoveTowards(transform.position, target.position, step);
+        // }
+        // if(isInAttackRange){
+        //     rb.velocity = Vector2.zero;
+        // }
     }
 
     private void OnCollisionStay2D(Collision2D other)
@@ -101,7 +94,7 @@ public class Enemy_S : MonoBehaviour
     
         if (other.gameObject.tag == "Player") 
         {
-            isInAttackRange =true;
+            
             anim.SetBool("shouldAttack", true);
 
             if (attackSpeed <= canAttack)
@@ -115,7 +108,7 @@ public class Enemy_S : MonoBehaviour
     }
     private void OnCollisionExit2D(Collision2D other)
     {
-        isInAttackRange =false;
+        
         anim.SetBool("shouldAttack", false);
     }
 

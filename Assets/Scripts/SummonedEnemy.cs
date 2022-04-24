@@ -2,12 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_S : MonoBehaviour
+public class SummonedEnemy : MonoBehaviour
 {
     [SerializeField] private float attackSpeed = 1f;
     [SerializeField] private float maxHealth = 100f;
-    [SerializeField] private Transform enemy;
-    [SerializeField] private Transform RespawnPoint;
 
     public float speed = 3f;
     public float checkRadius;
@@ -18,8 +16,6 @@ public class Enemy_S : MonoBehaviour
     public bool shouldAttack;
     public bool isHalf;
     public GameObject Coin;
-    public GameObject Enemy_Child;
-    public float divNum= 3f;
 
     private float health = 0f;
     private float canAttack;
@@ -33,15 +29,12 @@ public class Enemy_S : MonoBehaviour
     public bool isInChaseRange = false;
     private bool isInAttackRange = false;
 
-    private AudioSource audioSource;
-
     private void Start()
     {
         health = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
-        audioSource = GameObject.Find("DeathAudio").GetComponent<AudioSource>();
     }
     
     private void Update()
@@ -67,21 +60,14 @@ public class Enemy_S : MonoBehaviour
 
         if (health <= 0)
         {
-            
-            audioSource.Play();
             Destroy(gameObject);
             Vector3 position = transform.position;
-            if(gameObject.tag == "Enemy_S" || gameObject.tag == "Enemy_S2"){
-            Enemy_Child = Instantiate(Enemy_Child, position + new Vector3(1.0f, 0.0f, 0.0f), Quaternion.identity);
-            Enemy_Child = Instantiate(Enemy_Child, position + new Vector3(-1.0f, 0.0f, 0.0f), Quaternion.identity);
-            }
-            else{
-                Coin = Instantiate(Coin, position, Quaternion.identity);
-            }
+            Coin = Instantiate(Coin, position, Quaternion.identity);
+            GameObject.FindWithTag("PurpleKing").GetComponent<PurpleKing>().Spawndeath++;
+            GameObject.FindWithTag("EnemyLaser").GetComponent<EnemyLaser>().Spawndeath++;
         }
         healthBar.SetHealth(health);
     }
-
 
 
     private void FixedUpdate(){

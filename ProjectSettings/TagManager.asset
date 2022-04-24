@@ -9,6 +9,16 @@ TagManager:
   - Boss_1
   - Enemy_S
   - Enemy_C
+  - Enemy_S2
+  - Slime_Boss
+  - Enemy_R
+  - Coin
+  - EnemyBow
+  - PurpleKing
+  - Arrow
+  - EnemyLaser
+  - SummonedEnemy_M
+  - SummonedEnemy_R
   layers:
   - Default
   - TransparentFX

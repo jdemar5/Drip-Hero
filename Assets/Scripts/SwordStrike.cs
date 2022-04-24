@@ -39,6 +39,34 @@ public class SwordStrike: MonoBehaviour
             Enemy_S enemy = other.gameObject.GetComponent<Enemy_S>();
             enemy.takeDamage(attackDamage);
         }
+        if (other.gameObject.tag == "Enemy_R") 
+        {
+            audioSource.Play();
+            Enemy_R enemy = other.gameObject.GetComponent<Enemy_R>();
+            enemy.takeDamage(attackDamage);
+        }
+        if (other.gameObject.tag == "Slime_Boss") 
+        {
+            audioSource.Play();
+            Slime_Boss enemy = other.gameObject.GetComponent<Slime_Boss>();
+            enemy.takeDamage(attackDamage);
+        }if (other.gameObject.tag == "PurpleKing") 
+        {
+            audioSource.Play();
+            PurpleKing enemy = other.gameObject.GetComponent<PurpleKing>();
+            enemy.takeDamage(attackDamage);
+        }
+        if (other.gameObject.tag == "SummonedEnemy_M") 
+        {
+            audioSource.Play();
+            SummonedEnemy enemy = other.gameObject.GetComponent<SummonedEnemy>();
+            enemy.takeDamage(attackDamage);
+        }if (other.gameObject.tag == "SummonedEnemy_R") 
+        {
+            audioSource.Play();
+            SummonedEnemy_R enemy = other.gameObject.GetComponent<SummonedEnemy_R>();
+            enemy.takeDamage(attackDamage);
+        }
     }
 
     void Start()

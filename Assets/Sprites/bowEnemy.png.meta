@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 30aea0088971feb4da2ccae326608e68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3409234723533146384
+    second: bowEnemy_0
+  - first:
+      213: 4377744361320769658
+    second: bowEnemy_1
+  - first:
+      213: 4513238565782989717
+    second: bowEnemy_2
+  - first:
+      213: -3415296597877251821
+    second: bowEnemy_3
+  - first:
+      213: 2996341186191394044
+    second: bowEnemy_4
+  - first:
+      213: 3035580953041334138
+    second: bowEnemy_5
+  - first:
+      213: 1143771152559066465
+    second: bowEnemy_6
+  - first:
+      213: 3047494271435150386
+    second: bowEnemy_7
+  - first:
+      213: 5889848228494572363
+    second: bowEnemy_8
+  - first:
+      213: 323625296776665348
+    second: bowEnemy_9
+  - first:
+      213: 5025188958355755178
+    second: bowEnemy_10
+  - first:
+      213: 8875486622985927402
+    second: bowEnemy_11
+  - first:
+      213: -8879964343939737296
+    second: bowEnemy_12
+  - first:
+      213: -3395626359478834644
+    second: bowEnemy_13
+  - first:
+      213: 9074564398251952288
+    second: bowEnemy_14
+  - first:
+      213: -9082594685746099189
+    second: bowEnemy_15
+  - first:
+      213: 5759414905261724203
+    second: bowEnemy_16
+  - first:
+      213: 4977237673687037486
+    second: bowEnemy_17
+  - first:
+      213: 6902863799981814649
+    second: bowEnemy_18
+  - first:
+      213: -2528957148784246216
+    second: bowEnemy_19
+  - first:
+      213: 8367995389238660230
+    second: bowEnemy_20
+  - first:
+      213: -8524126008744902426
+    second: bowEnemy_21
+  - first:
+      213: -4412214503946278818
+    second: bowEnemy_22
+  - first:
+      213: -3861882394716779086
+    second: bowEnemy_23
+  - first:
+      213: -8557388533871857323
+    second: bowEnemy_24
+  - first:
+      213: 6021789892355826160
+    second: bowEnemy_25
+  - first:
+      213: -2508724077714681530
+    second: bowEnemy_26
+  - first:
+      213: 3282200074705402323
+    second: bowEnemy_27
+  - first:
+      213: -8407401903501436527
+    second: bowEnemy_28
+  - first:
+      213: -5349643611222462363
+    second: bowEnemy_29
+  - first:
+      213: -9078824276036310650
+    second: bowEnemy_30
+  - first:
+      213: -527160670373586788
+    second: bowEnemy_31
+  - first:
+      213: -1280860941366642431
+    second: bowEnemy_32
+  - first:
+      213: 3444339550391442239
+    second: bowEnemy_33
+  - first:
+      213: -5885286258453999902
+    second: bowEnemy_34
+  - first:
+      213: 1288047105268355715
+    second: bowEnemy_35
+  - first:
+      213: 6436819725084720352
+    second: bowEnemy_36
+  - first:
+      213: -2753706129230171891
+    second: bowEnemy_37
+  - first:
+      213: 3145554654022726596
+    second: bowEnemy_38
+  - first:
+      213: 8714762413178489286
+    second: bowEnemy_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bowEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1218
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f631e3f417ffa0d0800000000000000
+      internalID: -3409234723533146384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1218
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a786ef56d4fd0cc30800000000000000
+      internalID: 4377744361320769658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1218
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ba61c309e32ae30800000000000000
+      internalID: 4513238565782989717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1218
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3112de8d6dd6a90d0800000000000000
+      internalID: -3415296597877251821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1218
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf48fccfe64259920800000000000000
+      internalID: 2996341186191394044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1044
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f68f82bcc802a20800000000000000
+      internalID: 3035580953041334138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1044
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d4f94adcd7fdf00800000000000000
+      internalID: 1143771152559066465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1044
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2341eefb4efda4a20800000000000000
+      internalID: 3047494271435150386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_8
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1044
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bf16012c1fcb150800000000000000
+      internalID: 5889848228494572363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_9
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1044
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40914b62e7fbd7400800000000000000
+      internalID: 323625296776665348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa09208abbe0db540800000000000000
+      internalID: 5025188958355755178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 870
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeabecb2f001c2b70800000000000000
+      internalID: 8875486622985927402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_12
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 870
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039565d2a7704c480800000000000000
+      internalID: -8879964343939737296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_13
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 870
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2aaf4d11df40e0d0800000000000000
+      internalID: -3395626359478834644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 870
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8c639bd345fed70800000000000000
+      internalID: 9074564398251952288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 696
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cc045414424f180800000000000000
+      internalID: -9082594685746099189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 696
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b221736775d8def40800000000000000
+      internalID: 5759414905261724203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 696
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26bece2b43b21540800000000000000
+      internalID: 4977237673687037486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_18
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 696
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973b1da9d06ebcf50800000000000000
+      internalID: 6902863799981814649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_19
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 696
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832c7864fd657ecd0800000000000000
+      internalID: -2528957148784246216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c4da19877112470800000000000000
+      internalID: 8367995389238660230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 522
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0871cce8834b980800000000000000
+      internalID: -8524126008744902426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 522
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58a47b194aa4c2c0800000000000000
+      internalID: -4412214503946278818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_23
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 522
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd42925c66d76ac0800000000000000
+      internalID: -3861882394716779086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_24
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 522
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5513199a77c0e3980800000000000000
+      internalID: -8557388533871857323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f128e59002b19350800000000000000
+      internalID: 6021789892355826160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_26
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 348
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641d85c3eb83f2dd0800000000000000
+      internalID: -2508724077714681530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 348
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9739ef397bc8d20800000000000000
+      internalID: 3282200074705402323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_28
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 348
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1999ad95388e25b80800000000000000
+      internalID: -8407401903501436527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_29
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 348
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560b52eaa7f32c5b0800000000000000
+      internalID: -5349643611222462363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689a9a03c69810280800000000000000
+      internalID: -9078824276036310650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 174
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9853dec9262fa8f0800000000000000
+      internalID: -527160670373586788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_32
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 174
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1093b2792c7793ee0800000000000000
+      internalID: -1280860941366642431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_33
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 174
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b19ea7290cccf20800000000000000
+      internalID: 3444339550391442239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_34
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 174
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee8c5b5453435ea0800000000000000
+      internalID: -5885286258453999902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3829d73940010e110800000000000000
+      internalID: 1288047105268355715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecf6ecaf6d245950800000000000000
+      internalID: 6436819725084720352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_37
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d017b6f7dded8c9d0800000000000000
+      internalID: -2753706129230171891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_38
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3f99eba4147ab20800000000000000
+      internalID: 3145554654022726596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowEnemy_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 224
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c90e63fd3e01f870800000000000000
+      internalID: 8714762413178489286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

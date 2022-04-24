@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 9d3614f1c4543d7409237eb748cf6f24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8583271710659206190
+    second: purpleking2_0
+  - first:
+      213: 1087221171666188857
+    second: purpleking2_1
+  - first:
+      213: -5278556545141239374
+    second: purpleking2_2
+  - first:
+      213: 4693054779799628500
+    second: purpleking2_3
+  - first:
+      213: -5537023230662724645
+    second: purpleking2_4
+  - first:
+      213: 2553942924287913334
+    second: purpleking2_5
+  - first:
+      213: -3826701403383152146
+    second: purpleking2_6
+  - first:
+      213: -6300948655104598286
+    second: purpleking2_7
+  - first:
+      213: 5284285834934351117
+    second: purpleking2_8
+  - first:
+      213: -230984135509025375
+    second: purpleking2_9
+  - first:
+      213: 3811002952964426923
+    second: purpleking2_10
+  - first:
+      213: 4583984834882174905
+    second: purpleking2_11
+  - first:
+      213: 5318062229907045277
+    second: purpleking2_12
+  - first:
+      213: 4290172315122212764
+    second: purpleking2_13
+  - first:
+      213: 7116468463737162481
+    second: purpleking2_14
+  - first:
+      213: -6045264901991991194
+    second: purpleking2_15
+  - first:
+      213: -7363763439384402544
+    second: purpleking2_16
+  - first:
+      213: -8340880879845157303
+    second: purpleking2_17
+  - first:
+      213: 1397440598257704928
+    second: purpleking2_18
+  - first:
+      213: 3270653914528625735
+    second: purpleking2_19
+  - first:
+      213: -4571018872571092466
+    second: purpleking2_20
+  - first:
+      213: -3217710527502030547
+    second: purpleking2_21
+  - first:
+      213: -5342475411319003670
+    second: purpleking2_22
+  - first:
+      213: 415378169545166946
+    second: purpleking2_23
+  - first:
+      213: -4077624317537996644
+    second: purpleking2_24
+  - first:
+      213: -7392674433290970307
+    second: purpleking2_25
+  - first:
+      213: 2946414206654713151
+    second: purpleking2_26
+  - first:
+      213: -4625027695603533621
+    second: purpleking2_27
+  - first:
+      213: 8044416313063361057
+    second: purpleking2_28
+  - first:
+      213: 4477520728154004547
+    second: purpleking2_29
+  - first:
+      213: 1205144143999626585
+    second: purpleking2_30
+  - first:
+      213: 6180441381213923626
+    second: purpleking2_31
+  - first:
+      213: -2841934451643291757
+    second: purpleking2_32
+  - first:
+      213: 4362007192165537891
+    second: purpleking2_33
+  - first:
+      213: 4855607299099269050
+    second: purpleking2_34
+  - first:
+      213: 2690131388119732611
+    second: purpleking2_35
+  - first:
+      213: 8972950878759381103
+    second: purpleking2_36
+  - first:
+      213: -7593476793957885354
+    second: purpleking2_37
+  - first:
+      213: 847190497699005150
+    second: purpleking2_38
+  - first:
+      213: -7291221168421172497
+    second: purpleking2_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: purpleking2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2618
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3af73fad712e880800000000000000
+      internalID: -8583271710659206190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2618
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a727135e5961f00800000000000000
+      internalID: 1087221171666188857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_2
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2618
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b11b080accceb6b0800000000000000
+      internalID: -5278556545141239374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_3
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 2618
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dae7651574112140800000000000000
+      internalID: 4693054779799628500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_4
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2618
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3334745ba8823b0800000000000000
+      internalID: -5537023230662724645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2244
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dadcaee8d617320800000000000000
+      internalID: 2553942924287913334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_6
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2244
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1cbdd2953d4eac0800000000000000
+      internalID: -3826701403383152146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_7
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2244
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fed38005988e88a0800000000000000
+      internalID: -6300948655104598286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_8
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 2244
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05f3e238fd855940800000000000000
+      internalID: 5284285834934351117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_9
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2244
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1addb3e07216bccf0800000000000000
+      internalID: -230984135509025375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1870
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacc8618ef663e430800000000000000
+      internalID: 3811002952964426923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_11
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1870
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bffdea9be59d9f30800000000000000
+      internalID: 4583984834882174905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_12
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1870
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bf70bfb6d8dc940800000000000000
+      internalID: 5318062229907045277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_13
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1870
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f13148df0c98b30800000000000000
+      internalID: 4290172315122212764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_14
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1870
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fac254fc56c2c260800000000000000
+      internalID: 7116468463737162481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1496
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66871afc997ea1ca0800000000000000
+      internalID: -6045264901991991194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_16
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1496
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095eb71ba28aec990800000000000000
+      internalID: -7363763439384402544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_17
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1496
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9465bfa180d3f3c80800000000000000
+      internalID: -8340880879845157303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_18
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1496
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef1cd5f1d4b46310800000000000000
+      internalID: 1397440598257704928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_19
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1496
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74438b61862b36d20800000000000000
+      internalID: 3270653914528625735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1122
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e022bcebd8a7090c0800000000000000
+      internalID: -4571018872571092466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_21
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1122
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29e43ac2556853d0800000000000000
+      internalID: -3217710527502030547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_22
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1122
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae562174be6bbd5b0800000000000000
+      internalID: -5342475411319003670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_23
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1122
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26011339e38b3c500800000000000000
+      internalID: 415378169545166946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_24
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1122
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9037a1994e5967c0800000000000000
+      internalID: -4077624317537996644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 748
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b549f55c1f76990800000000000000
+      internalID: -7392674433290970307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_26
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 748
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d81d43c14c3e820800000000000000
+      internalID: 2946414206654713151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_27
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 748
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc83537b0d990dfb0800000000000000
+      internalID: -4625027695603533621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_28
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 748
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12acf7df30283af60800000000000000
+      internalID: 8044416313063361057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_29
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 748
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c511c1169532e30800000000000000
+      internalID: 4477520728154004547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d6d3eb63889b010800000000000000
+      internalID: 1205144143999626585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_31
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 374
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29616ad0b655c550800000000000000
+      internalID: 6180441381213923626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_32
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 374
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3976bd66cab6f88d0800000000000000
+      internalID: -2841934451643291757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_33
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 374
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368d9bc2e66f88c30800000000000000
+      internalID: 4362007192165537891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_34
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 374
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab71b97cc15926340800000000000000
+      internalID: 4855607299099269050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381510c9e34455520800000000000000
+      internalID: 2690131388119732611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_36
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f686b739843568c70800000000000000
+      internalID: 8972950878759381103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_37
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ad7fd761d8e9690800000000000000
+      internalID: -7593476793957885354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_38
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 0
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed28f60e443d1cb00800000000000000
+      internalID: 847190497699005150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleking2_39
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 0
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea82755af060da90800000000000000
+      internalID: -7291221168421172497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
