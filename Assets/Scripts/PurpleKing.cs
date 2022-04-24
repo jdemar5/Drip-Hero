@@ -52,6 +52,7 @@ public class PurpleKing : MonoBehaviour
     private AudioSource bosstheme;
     private AudioSource bgm;
     private AudioSource wintheme;
+    private GameObject laseraudio2obj;
 
     private void Start()
     {
@@ -65,6 +66,7 @@ public class PurpleKing : MonoBehaviour
         bosstheme = GameObject.Find("BossBGM").GetComponent<AudioSource>();
         bgm = GameObject.Find("BGM").GetComponent<AudioSource>();
         wintheme = GameObject.Find("WinBGM").GetComponent<AudioSource>();
+        laseraudio2obj = GameObject.Find("LaserAudio2");
         timeline1.SetActive(false);
         timeline2.SetActive(false);
         Phase1 = true;
@@ -97,6 +99,7 @@ public class PurpleKing : MonoBehaviour
         {
             bosstheme.Stop();
             wintheme.Play();
+            laseraudio2obj.SetActive(false);
             Destroy(gameObject);
             Vector3 position = transform.position;
             Coin = Instantiate(Coin, position, Quaternion.identity);

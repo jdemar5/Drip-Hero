@@ -22,12 +22,18 @@ public class EnemyLaser : MonoBehaviour
     private bool cutscene1Ended;
     private bool cutscene2Ended;
     public bool isFiring;
+    private AudioSource shootaudio;
+    private AudioSource shootaudio2;
+    private GameObject shootaudio2obj;
     
 
     private void Start()
     {
         anim = GetComponent<Animator>();
-        
+        shootaudio = GameObject.Find("LaserAudio").GetComponent<AudioSource>();
+        shootaudio2 = GameObject.Find("LaserAudio2").GetComponent<AudioSource>();
+        shootaudio2obj = GameObject.Find("LaserAudio2");
+        shootaudio2obj.SetActive(false);
     }
     
     private void Update()
@@ -40,7 +46,6 @@ public class EnemyLaser : MonoBehaviour
 
         float distanceToPlayer = Vector3.Distance (transform.position, target.position);
         if (distanceToPlayer < attackRange)
-        
         {
             Vector3 targetDir = target.position - transform.position;
             float angle = Mathf.Atan2 (targetDir.y, targetDir.x) * Mathf.Rad2Deg -90f;
@@ -55,7 +60,7 @@ public class EnemyLaser : MonoBehaviour
                 
                 if (hit.transform == target)
                 {
-                   
+                    shootaudio.Play();
                     GameObject newArrow = Instantiate (arrow,transform.position, transform.rotation);
                     newArrow.GetComponent <Rigidbody2D>().AddRelativeForce (new Vector2(0f,arrowForce));
                     lastAttackTime = Time.time;
@@ -72,8 +77,8 @@ public class EnemyLaser : MonoBehaviour
             attackDelay=0.1f;
             float distanceToPlayer = Vector3.Distance (transform.position, target.position);
         if (distanceToPlayer < attackRange)
-        
         {
+            shootaudio2obj.SetActive(true);
             Vector3 targetDir = target.position - transform.position;
             float angle = Mathf.Atan2 (targetDir.y, targetDir.x) * Mathf.Rad2Deg -90f;
             Quaternion q = Quaternion.AngleAxis (angle, Vector3.forward);
