@@ -153,7 +153,7 @@ public class PurpleKing : MonoBehaviour
         {
             if (cutscene2Ended)
             {
-                anim.SetBool("fallingDown", true);
+                //anim.SetBool("fallingDown", true);
                 anim.SetBool("laserStart", true);
             }
             else if (!cutscene2Started)
