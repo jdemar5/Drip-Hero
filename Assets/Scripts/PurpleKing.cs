@@ -163,7 +163,7 @@ public class PurpleKing : MonoBehaviour
             }
             else
             {
-                health = maxHealth;
+                health = maxHealth / 2;
             }
         }
     }
