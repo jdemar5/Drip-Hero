@@ -53,6 +53,7 @@ public class PurpleKing : MonoBehaviour
     private AudioSource bgm;
     private AudioSource wintheme;
     private GameObject laseraudio2obj;
+    public GameObject endgameobj;
 
     private void Start()
     {
@@ -102,6 +103,7 @@ public class PurpleKing : MonoBehaviour
             laseraudio2obj.SetActive(false);
             Destroy(gameObject);
             Vector3 position = transform.position;
+            endgameobj = Instantiate(endgameobj, position, Quaternion.identity);
             Coin = Instantiate(Coin, position, Quaternion.identity);
         }
         healthBar.SetHealth(health);
@@ -153,7 +155,6 @@ public class PurpleKing : MonoBehaviour
         {
             if (cutscene2Ended)
             {
-                //anim.SetBool("fallingDown", true);
                 anim.SetBool("laserStart", true);
             }
             else if (!cutscene2Started)
