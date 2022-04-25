@@ -25,6 +25,7 @@ public class Boss_1 : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     private Vector3 dir;
+    public GameObject portal;
 
     public bool isInChaseRange = false;
     private bool isInAttackRange = false;
@@ -68,6 +69,7 @@ public class Boss_1 : MonoBehaviour
         if (health <= 0)
         {
             audioSource.Play();
+            portal = Instantiate(portal, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
         healthBar.SetHealth(health);
