@@ -16301,7 +16301,7 @@ MonoBehaviour:
   shouldRotate: 0
   shouldAttack: 0
   isHalf: 0
-  Coin: {fileID: 0}
+  Coin: {fileID: 6591936185131257136, guid: ed5ea18167b88d94abb0ff8b8d36916b, type: 3}
   isInChaseRange: 0
 --- !u!95 &552400129
 Animator:
@@ -26947,7 +26947,7 @@ MonoBehaviour:
   shouldRotate: 0
   shouldAttack: 0
   isHalf: 0
-  Coin: {fileID: 0}
+  Coin: {fileID: 6591936185131257136, guid: ed5ea18167b88d94abb0ff8b8d36916b, type: 3}
   isInChaseRange: 0
 --- !u!95 &1981506391
 Animator:
