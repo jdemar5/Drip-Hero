@@ -28,6 +28,7 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetMouseButtonDown(0) && !onCooldown)
         {
             Instantiate(prefab, firePoint.position, firePoint.rotation);
@@ -37,6 +38,7 @@ public class Weapon : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90;
         Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         rb.MoveRotation(rotation);
+        
     }
 
     public float GetCooldownTime()
