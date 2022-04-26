@@ -34,4 +34,9 @@ public class main_menu : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    public void level_four()
+    {
+        SceneManager.LoadScene(4);
+        Time.timeScale = 1f;
+    }
 }
