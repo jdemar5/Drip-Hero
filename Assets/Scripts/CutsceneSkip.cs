@@ -12,7 +12,7 @@ public class CutsceneSkip : MonoBehaviour
         timeline = GameObject.Find("Timeline");
         mainmenu = GameObject.Find("menu").transform.GetChild(0).gameObject;
         storyboard = GameObject.Find("menu").transform.GetChild(2).gameObject;
-        skipcutscene = GameObject.Find("menu").transform.GetChild(2).gameObject;
+        skipcutscene = GameObject.Find("menu").transform.GetChild(3).gameObject;
         bgm = GameObject.Find("Audio").transform.GetChild(0).gameObject;
         bgm2 = GameObject.Find("Audio").transform.GetChild(1).gameObject;
         sfx = GameObject.Find("Audio").transform.GetChild(2).gameObject;
