@@ -10,7 +10,7 @@ public class Pistol : MonoBehaviour
     private Rigidbody2D rb;
     Vector3 mousePos;
     float angle;
-    private bool isSwordLeft, onCooldown;
+    private bool onCooldown;
     private AudioSource audioSource;
     private WeaponPistol weapon;
     private float cooldownTime;
@@ -18,7 +18,6 @@ public class Pistol : MonoBehaviour
     {
         player = GameObject.Find("Player");
         rb = this.transform.GetChild(0).GetComponent<Rigidbody2D>();
-        isSwordLeft = true;
         audioSource = this.GetComponent<AudioSource>();
         weapon = this.GetComponent<WeaponPistol>();
         cooldownTime = weapon.GetCooldownTime();
@@ -33,31 +32,12 @@ public class Pistol : MonoBehaviour
         {
             audioSource.Play();
             StartCoroutine("Cooldown");
-            if (isSwordLeft)
-            {
-                isSwordLeft = false;
-            }
-            else
-            {
-                isSwordLeft = true;
-            }
         }
 
-        if (isSwordLeft)
-        {
-            Vector2 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-            rb.MoveRotation(rotation);
-        }
-        else
-        {
-            Vector2 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-            rb.MoveRotation(rotation);
-        }
-        
+        Vector2 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90;
+        Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        rb.MoveRotation(rotation);
     }
 
     IEnumerator Cooldown()
