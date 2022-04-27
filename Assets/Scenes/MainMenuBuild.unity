@@ -795,7 +795,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 158477157}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 25491700}
+        m_TargetAssemblyTypeName: main_menu, Assembly-CSharp
+        m_MethodName: quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &158477157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3001,8 +3013,6 @@ PlayableDirector:
     value: {fileID: 2074074039}
   - key: {fileID: 0}
     value: {fileID: 0}
-  - key: {fileID: 4418796066228068945, guid: 748138b5722752443a08c1406ec08b87, type: 2}
-    value: {fileID: 0}
   - key: {fileID: -2836485041428051584, guid: 748138b5722752443a08c1406ec08b87, type: 2}
     value: {fileID: 2074074035}
   - key: {fileID: 6621779341827325301, guid: 748138b5722752443a08c1406ec08b87, type: 2}
@@ -3015,6 +3025,8 @@ PlayableDirector:
     value: {fileID: 1682978560}
   - key: {fileID: -694752697010897071, guid: 748138b5722752443a08c1406ec08b87, type: 2}
     value: {fileID: 2071115139}
+  - key: {fileID: -5636686277464942807, guid: 748138b5722752443a08c1406ec08b87, type: 2}
+    value: {fileID: 25491699}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1335547275
