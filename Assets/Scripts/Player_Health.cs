@@ -10,6 +10,7 @@ public class Player_Health : MonoBehaviour
     [SerializeField] private Transform RespawnPoint;
     private float health = 0f;
     [SerializeField] private float maxHealth = 100f;
+    public float Spawndeath = 0f;
 
     private void Start()
     {
@@ -17,12 +18,10 @@ public class Player_Health : MonoBehaviour
     }
 
 
-    
-
     public void UpdateHealth(float mod)
     {
         health += mod;
-        Debug.Log("player hit Health:" + health);
+        Debug.Log("Health:" + health);
         if (health > maxHealth)
         {
             health = maxHealth;
