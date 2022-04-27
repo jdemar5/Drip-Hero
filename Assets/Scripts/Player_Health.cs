@@ -11,10 +11,12 @@ public class Player_Health : MonoBehaviour
     private float health = 0f;
     [SerializeField] private float maxHealth = 100f;
     public float Spawndeath = 0f;
+    private AudioSource playerhitaudio;
 
     private void Start()
     {
         health = maxHealth;
+        playerhitaudio = GameObject.Find("PlayerDamageAudio").GetComponent<AudioSource>();
     }
 
 
@@ -31,6 +33,10 @@ public class Player_Health : MonoBehaviour
             Respawn();
         }
         healthBar.SetHealth(health);
+        if(mod < 0)
+        {
+            playerhitaudio.Play();
+        }
     }
 
     public void Respawn()
