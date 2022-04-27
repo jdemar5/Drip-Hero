@@ -19,6 +19,7 @@ public class Potion : MonoBehaviour
         if (other.tag == "Player")
         {
              other.gameObject.GetComponent<Player_Health>().UpdateHealth(Heal);
+             Destroy(gameObject);
         }
     }
 }
