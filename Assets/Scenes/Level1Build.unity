@@ -82506,6 +82506,7 @@ MonoBehaviour:
   player: {fileID: 1756380094}
   RespawnPoint: {fileID: 0}
   maxHealth: 100
+  Spawndeath: 0
 --- !u!58 &1756380091
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -79,7 +79,7 @@ public class Enemy_SP : MonoBehaviour
             }
             else if(gameObject.tag == "Enemy_SP"){
                 Debug.Log("In SP Death" );
-                if(Spawndeath>14){
+                if(Spawndeath>11){
                     Debug.Log("Should Spawn Port" );
                     Coin = Instantiate(Coin, position, Quaternion.identity);
                 }
