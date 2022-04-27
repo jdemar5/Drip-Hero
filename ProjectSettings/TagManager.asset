@@ -19,6 +19,7 @@ TagManager:
   - EnemyLaser
   - SummonedEnemy_M
   - SummonedEnemy_R
+  - Enemy_SP
   layers:
   - Default
   - TransparentFX
