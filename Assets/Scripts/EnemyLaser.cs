@@ -6,7 +6,6 @@ public class EnemyLaser : MonoBehaviour
 {
     
     public float speed;
-    int currnentPatrolIndex;
     public GameObject arrow;
     public Transform target;
     public float chaseRange;

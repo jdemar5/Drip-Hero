@@ -9,16 +9,12 @@ public class PurpleKing : MonoBehaviour
     
 
     public float speed = 3f;
-    public float checkRadius;
-    public float attackRadius;
     public float SpawnNum= 0f;
     public float Spawndeath= 0f;
     public Health_Bar healthBar;
-    public LayerMask whatIsPlayer;
     public bool shouldRotate;
     public bool shouldAttack;
     public bool isHalf;
-    public bool isFiring;
     public GameObject Coin;
     public GameObject Enemy_Child1;
     public GameObject Enemy_Child2;

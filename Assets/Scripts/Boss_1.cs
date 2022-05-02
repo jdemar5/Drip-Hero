@@ -9,8 +9,6 @@ public class Boss_1 : MonoBehaviour
     [SerializeField] private float maxHealth = 400f;
 
     public float speed = 3f;
-    public float checkRadius;
-    public float attackRadius;
     public Health_Bar healthBar;
     public LayerMask whatIsPlayer;
     public bool shouldRotate;

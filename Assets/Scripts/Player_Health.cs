@@ -7,7 +7,6 @@ public class Player_Health : MonoBehaviour
 {
     public Health_Bar healthBar;
     [SerializeField] private Transform player;
-    [SerializeField] private Transform RespawnPoint;
     private float health = 0f;
     [SerializeField] private float maxHealth = 100f;
     public float Spawndeath = 0f;
@@ -41,7 +40,7 @@ public class Player_Health : MonoBehaviour
 
     public void Respawn()
     {
-        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
    
 }
