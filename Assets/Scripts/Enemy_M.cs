@@ -11,10 +11,8 @@ public class Enemy_M : MonoBehaviour
     public float checkRadius;
     public float attackRadius;
     public Health_Bar healthBar;
-    public LayerMask whatIsPlayer;
     public bool shouldRotate;
     public bool shouldAttack;
-    public bool isHalf;
     public GameObject Coin;
 
     private float health = 0f;

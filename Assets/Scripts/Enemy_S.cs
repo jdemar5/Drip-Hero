@@ -6,20 +6,14 @@ public class Enemy_S : MonoBehaviour
 {
     [SerializeField] private float attackSpeed = 1f;
     [SerializeField] private float maxHealth = 100f;
-    [SerializeField] private Transform enemy;
-    [SerializeField] private Transform RespawnPoint;
+   
 
     public float speed = 3f;
-    public float checkRadius;
-    public float attackRadius;
     public Health_Bar healthBar;
-    public LayerMask whatIsPlayer;
     public bool shouldRotate;
     public bool shouldAttack;
-    public bool isHalf;
     public GameObject Coin;
     public GameObject Enemy_Child;
-    public float divNum= 3f;
 
     private float health = 0f;
     private float canAttack;
